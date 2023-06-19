@@ -29,16 +29,10 @@ To convert a PDF file to text, follow these steps:
 Here's an example AutoHotkey script that demonstrates the usage:
 
 ```autohotkey
-#Include %A_ScriptDir%\PDFtoTextConverter.ahk
+        ;   credit for CLR.ahk
+        ;   Author:     Lexikos
 
-; Load the PDF file
-myDll.LoadPdf("path\to\input.pdf")
+        path_to_pdf := A_ScriptDir "\sample_page.pdf"
+        textPDF := PDF2TXT(path_to_pdf)
+        MsgBox(textPDF)
 
-; Convert the PDF to text
-myDll.ConvertToText()
-
-; Access the extracted text
-extractedText := myDll.GetExtractedText()
-
-; Use the extracted text within your script
-MsgBox % extractedText
