@@ -8,13 +8,6 @@ This is a C# DLL that provides functionality for converting PDF files to text us
 - .NET Framework (minimum version X.X)
 - AutoHotkey (minimum version X.X)
 
-## Installation
-
-1. Clone or download the repository to your local machine.
-
-2. Build the C# DLL project using your preferred IDE.
-
-3. In your AutoHotkey script, import the DLL using the `DllCall` function. For example:
 
 ## Usage
 
