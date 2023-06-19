@@ -8,6 +8,11 @@
 ;   Requires:	AutoHotkey v2.0-beta.1
 ;
 
+/*@param path_to_pdf
+* returns =>  text 
+*******************/
+
+
 CLR_LoadLibrary(AssemblyName, AppDomain:=0)
 {
 	if !AppDomain
