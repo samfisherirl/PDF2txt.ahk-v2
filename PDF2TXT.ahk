@@ -1,9 +1,8 @@
 ﻿#Requires Autohotkey v2
 #Include CLR.ahk
+;   credit for CLR.ahk
+;   Author:     Lexikos
 
-
-path_to_pdf := "C:\\Users\\dower\\OneDrive\\C###### PDFS\\Microsoft Visual C# Step by Step, 10th Edition - John Sharp[2022].pdf"
-asm := CLR_LoadLibrary(A_ScriptDir "\PDF.dll")
-obj := CLR_CreateObject(asm, "Program")
-x := Msgbox(obj.PDF(path_to_pdf))
-
+path_to_pdf := A_ScriptDir "\sample_page.pdf"
+textPDF := PDF2TXT(path_to_pdf)
+MsgBox(textPDF)
