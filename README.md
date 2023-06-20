@@ -3,6 +3,8 @@
 
 This is a C# DLL that provides functionality for converting PDF files to text using the iTextSharp library. It can be used in conjunction with AutoHotkey (AHK) scripts to convert PDF files to text and utilize the extracted text within AHK.
 
+Download: https://github.com/samfisherirl/PDF2txt.ahk-v2/releases/latest
+
 ## Prerequisites
  
 - AutoHotkey (minimum version 2.X)
